@@ -1,0 +1,8 @@
+Pinina
+沒有 vuex 的 mutation
+支援 typescript
+支援 option API & Composition API
+用 Pinina 包裝起來的是一個 proxy 物件, 變數解構會有問題, 解構 function 不會有問題
+
+Vue 的東西能直接在 Pinia 使用, 僅限於在 Composition API 寫法
+ex. computed, watch..etc
